@@ -31,7 +31,7 @@ class Payment(ABC):
     def log_error(self, error):
         """Логирование ошибки"""
         pass
-
+print('sdf')
 
 class CreditCardPayment(Payment):
     def __init__(self, card_number, amount):
